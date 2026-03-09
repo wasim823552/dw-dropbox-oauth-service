@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "name": "dw-dropbox-oauth-service",
+  "public": true,
+  "routes": [
+    {
+      "src": "/api/oauth/connect",
+      "dest": "/api/oauth/connect"
+    },
+    {
+      "src": "/api/oauth/callback",
+      "dest": "/api/oauth/callback"
+    },
+    {
+      "src": "/api/oauth/refresh",
+      "dest": "/api/oauth/refresh"
+    },
+    {
+      "src": "/api/oauth/status",
+      "dest": "/api/oauth/status"
+    },
+    {
+      "src": "/",
+      "dest": "/api/oauth/status"
+    }
+  ]
+}
